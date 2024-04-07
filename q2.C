@@ -34,28 +34,7 @@
 #include <string.h>
 
 // Function to convert a single Roman numeral character to an integer value
-int roman_to_int(char c)
-{
-    switch (c)
-    {
-    case 'I':
-        return 1;
-    case 'V':
-        return 5;
-    case 'X':
-        return 10;
-    case 'L':
-        return 50;
-    case 'C':
-        return 100;
-    case 'D':
-        return 500;
-    case 'M':
-        return 1000;
-    default:
-        return 0;
-    }
-}
+int roman_to_int(char c);
 
 int main()
 {
@@ -93,3 +72,32 @@ int main()
 
     return 0;
 }
+
+// Function to convert a single Roman numeral character to an integer value
+int roman_to_int(char c)
+{
+    switch (c)
+    {
+    case 'I':
+        return 1;
+    case 'V':
+        return 5;
+    case 'X':
+        return 10;
+    case 'L':
+        return 50;
+    case 'C':
+        return 100;
+    case 'D':
+        return 500;
+    case 'M':
+        return 1000;
+    default:
+        return 0;
+    }
+}
+
+// /******************* Output *********************
+// enter a roman value make sure you enter valur in upper case: VI
+// The integer equivalent of the Roman numeral VI is: 6
+// /**************************************************/
