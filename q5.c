@@ -34,7 +34,7 @@ int main() {
     for (int i = 0; i < 4; i++) {
         sum += marks[i];
     }
-    float average = sum / 2.0;
+    float average = sum / 4.0;
     printf("The average marks are: %f\n", average);
 
     // Step 4: Print the percentage.
