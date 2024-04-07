@@ -60,7 +60,7 @@ int main() {
 // Enter the marks of subject 2 out of 30: 19
 // Enter the marks of subject 3 out of 30: 14
 // Enter the marks of subject 4 out of 30: 26
-// The average marks are: 41.000000
+// The average marks are: 20.500000
 // The percentage is: 68.333336
 // Congratulations! You have passed.
 //
